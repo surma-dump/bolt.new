@@ -68,6 +68,13 @@ Optionally, you can set the debug level:
 VITE_LOG_LEVEL=debug
 ```
 
+Alternatively, you can specify the following variables to run against any OpenAI-compatible API endpoint:
+
+```
+OPENAI_API_KEY=XXX
+OPENAI_API_BASE=http://litellm.localhost:4000
+```
+
 **Important**: Never commit your `.env.local` file to version control. It's already included in .gitignore.
 
 ## Available Scripts

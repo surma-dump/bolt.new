@@ -73,6 +73,7 @@ Alternatively, you can specify the following variables to run against any OpenAI
 ```
 OPENAI_API_KEY=XXX
 OPENAI_API_BASE=http://litellm.localhost:4000
+OPENAI_MODEL=anthropic:claude-3-5-sonnet-20240620
 ```
 
 **Important**: Never commit your `.env.local` file to version control. It's already included in .gitignore.

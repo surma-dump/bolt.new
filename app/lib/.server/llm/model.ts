@@ -10,7 +10,7 @@ export function getAnthropicModel(apiKey: string) {
       apiKey,
     });
 
-    return model('anthropic:claude-3-5-sonnet-20240620');
+    return model(env.OPENAI_MODEL as any);
   } else {
     const anthropic = createAnthropic({
       apiKey,
